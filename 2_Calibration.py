@@ -34,7 +34,7 @@ def findCorners(gray_, img_, fname_):
 
 # use previously recorded images
 
-images = glob.glob('images/*.jpeg')
+images = glob.glob('calibration_images/*.png')
 
 print(images)
 for fname in images:
